@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="Evgeny.First_Selenium_Project.main" target="1.8" />
+      <module name="Evgeny.First_Selenium_Project.test" target="1.8" />
       <module name="First_Selenium_Project.main" target="1.8" />
       <module name="First_Selenium_Project.test" target="1.8" />
     </bytecodeTargetLevel>
