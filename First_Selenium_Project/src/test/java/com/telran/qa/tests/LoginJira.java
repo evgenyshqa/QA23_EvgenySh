@@ -25,14 +25,14 @@ public class LoginJira {
 
   @Test
   public void loginToJira() {
-    type(By.id("login-form-username"), "evgenyshqa");
+    type(By.id("login-form-username"), "egenyshqa");
     type(By.id("login-form-password"), "111111");
     click(By.id("login"));
 
     Assert.assertTrue(isElementPresent(By.id("usernameerror")));
 
-    String errorMesage = wd.findElement(By.id("usernameerror")).getText();
-    Assert.assertEquals(errorMesage, "Sorry, your username and password are incorrect - please try again.");
+    String errorMessage = wd.findElement(By.id("usernameerror")).getText();
+    Assert.assertEquals(errorMessage, "Sorry, your username and password are incorrect - please try again.");
 
   }
 
